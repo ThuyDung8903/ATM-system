@@ -104,7 +104,7 @@ public class ATM {
     // display the main menu and return an input selection
     private int displayMainMenu() {
         screen.displayMessageLine("\nMain menu:");
-        screen.displayMessageLine("1 - View my balance");
+        screen.displayMessageLine("1 - Balance Inquiry");
         screen.displayMessageLine("2 - Withdraw cash");
         screen.displayMessageLine("3 - Deposit funds");
         screen.displayMessageLine("4 - Exit\n");
